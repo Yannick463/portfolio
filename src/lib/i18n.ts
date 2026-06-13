@@ -1,3 +1,4 @@
+import { publicPath } from "@/lib/public-path";
 export type Locale = "pt" | "en" | "fr" | "zh";
 
 export const DEFAULT_LOCALE: Locale = "en";
@@ -1923,7 +1924,7 @@ export const siteConfig = {
   email: "yannickm637@gmail.com",
   linkedin: "https://www.linkedin.com/in/yannick-martins-3b3954314/",
   github: "https://github.com/Yannick463",
-  cvPath: "/cv.pdf",
+  cvPath: publicPath("/cv.pdf"),
 };
 
 export const statusStyles: Record<

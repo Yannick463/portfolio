@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useLanguage } from "@/components/language-provider";
+import { publicPath } from "@/lib/public-path";
 
 const IMAGE_WIDTH = 1086;
 const IMAGE_HEIGHT = 1448;
@@ -18,7 +19,7 @@ export function PortfolioAvatar() {
         />
 
         <Image
-          src="/avatar-yannick-cutout.png"
+          src={publicPath("/avatar-yannick-cutout.png")}
           alt={t.common.avatarAlt}
           width={IMAGE_WIDTH}
           height={IMAGE_HEIGHT}
