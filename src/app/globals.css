@@ -198,90 +198,28 @@ body {
   isolation: isolate;
 }
 
-/* Mission flip cards — Oficina Digital / VEKTRA */
-.mission-flip-card-shell {
+/* Mission expandable cards — Oficina Digital / VEKTRA / Lab */
+.mission-card-shell {
   isolation: isolate;
-  perspective: 1000px;
-  min-height: 21rem;
 }
 
-.mission-flip-card {
-  height: 100%;
-  min-height: inherit;
+.mission-card-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 360ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.mission-flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: inherit;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transition: transform 760ms cubic-bezier(0.22, 1, 0.36, 1);
+.mission-card-details--expanded {
+  grid-template-rows: 1fr;
 }
 
-.mission-flip-card-face {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+.mission-card-details-inner {
   overflow: hidden;
 }
 
-.mission-flip-card-back {
-  transform: rotateY(180deg);
-}
-
-@media (min-width: 1024px) {
-  .mission-flip-card-shell:hover
-    .mission-flip-card:not(.mission-flip-card--reduced-motion)
-    .mission-flip-card-inner,
-  .mission-flip-card-shell:focus-within
-    .mission-flip-card:not(.mission-flip-card--reduced-motion)
-    .mission-flip-card-inner {
-    transform: rotateY(180deg);
-  }
-}
-
-.mission-flip-card--flipped .mission-flip-card-inner {
-  transform: rotateY(180deg);
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .mission-flip-card-inner {
-    transition: opacity 0.35s ease-out;
-    transform: none !important;
-  }
-
-  .mission-flip-card-face {
-    transition: opacity 0.35s ease-out;
-  }
-
-  .mission-flip-card-front {
-    opacity: 1;
-  }
-
-  .mission-flip-card-back {
-    transform: none;
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .mission-flip-card--flipped .mission-flip-card-front,
-  .mission-flip-card-shell:hover
-    .mission-flip-card--reduced-motion
-    .mission-flip-card-front {
-    opacity: 0;
-  }
-
-  .mission-flip-card--flipped .mission-flip-card-back,
-  .mission-flip-card-shell:hover
-    .mission-flip-card--reduced-motion
-    .mission-flip-card-back {
-    opacity: 1;
-    pointer-events: auto;
+  .mission-card-details {
+    transition: none;
   }
 }
 

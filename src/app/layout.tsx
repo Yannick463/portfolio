@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import { AppShell } from "@/components/app-shell";
 import { LanguageProvider } from "@/components/language-provider";
+import { publicPath } from "@/lib/public-path";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -53,6 +54,22 @@ export const metadata: Metadata = {
     description:
       "I build web applications, AI automations, database-driven systems and secure solutions for real-world problems.",
   },
+  other: {
+    google: "notranslate",
+  },
+  icons: {
+    icon: [
+      { url: publicPath("/icon.png"), type: "image/png", sizes: "512x512" },
+      { url: publicPath("/favicon-32.png"), type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      {
+        url: publicPath("/apple-icon.png"),
+        type: "image/png",
+        sizes: "180x180",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -63,10 +80,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      translate="no"
       suppressHydrationWarning
-      className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} h-full scroll-smooth antialiased`}
+      className={`notranslate ${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} h-full scroll-smooth antialiased`}
     >
-      <body className="min-h-full bg-bg-primary font-sans text-text-primary">
+      <body
+        translate="no"
+        className="notranslate min-h-full bg-bg-primary font-sans text-text-primary"
+      >
         <LanguageProvider>
           <AppShell>{children}</AppShell>
         </LanguageProvider>

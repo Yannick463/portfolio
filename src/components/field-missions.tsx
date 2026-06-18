@@ -21,7 +21,7 @@ export function FieldMissions() {
           subtitle={t.missions.subtitle}
         />
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
+        <div className="mt-12 grid items-start gap-6 lg:grid-cols-2">
           {missionMeta.map((mission, index) => {
             const content = t.missions.items[mission.id];
             const statusLabel = t.missions.status[content.statusKey];
@@ -35,6 +35,8 @@ export function FieldMissions() {
                   statusLabel={statusLabel}
                   viewProjectLabel={t.missions.viewProject}
                   viewProjectAria={`${t.common.viewProjectAria}: ${mission.title}`}
+                  showDetailsLabel={t.missions.showDetails}
+                  hideDetailsLabel={t.missions.hideDetails}
                   projectLink={mission.link ?? ""}
                   cvLine={index % 2 === 0 ? "top" : "bottom"}
                 />
@@ -48,6 +50,8 @@ export function FieldMissions() {
                   title={mission.title}
                   content={content}
                   statusLabel={statusLabel}
+                  showDetailsLabel={t.missions.showDetails}
+                  hideDetailsLabel={t.missions.hideDetails}
                   cvLine={index % 2 === 0 ? "top" : "bottom"}
                 />
               );
@@ -63,6 +67,8 @@ export function FieldMissions() {
                   title={mission.title}
                   content={content}
                   statusLabel={statusLabel}
+                  showDetailsLabel={t.missions.showDetails}
+                  hideDetailsLabel={t.missions.hideDetails}
                   cvLine={index % 2 === 0 ? "top" : "bottom"}
                 />
               );

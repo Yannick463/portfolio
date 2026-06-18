@@ -91,6 +91,8 @@ export type Translations = {
     problemLabel: string;
     solutionLabel: string;
     viewProject: string;
+    showDetails: string;
+    hideDetails: string;
     caseStudy: string;
     status: {
       live: string;
@@ -348,6 +350,8 @@ const en: Translations = {
     problemLabel: "Problem",
     solutionLabel: "Solution",
     viewProject: "View Project",
+    showDetails: "Details",
+    hideDetails: "Hide details",
     caseStudy: "Case Study",
     status: {
       live: "In production",
@@ -786,6 +790,8 @@ const pt: Translations = {
     problemLabel: "Problema",
     solutionLabel: "Solução",
     viewProject: "Ver projeto",
+    showDetails: "Detalhes",
+    hideDetails: "Ocultar detalhes",
     caseStudy: "Estudo de caso",
     status: {
       live: "Em produção",
@@ -1224,6 +1230,8 @@ const fr: Translations = {
     problemLabel: "Problème",
     solutionLabel: "Solution",
     viewProject: "Voir le projet",
+    showDetails: "Détails",
+    hideDetails: "Masquer les détails",
     caseStudy: "Étude de cas",
     status: {
       live: "En production",
@@ -1614,6 +1622,8 @@ const zh: Translations = {
     problemLabel: "问题",
     solutionLabel: "解决方案",
     viewProject: "查看项目",
+    showDetails: "详情",
+    hideDetails: "收起详情",
     caseStudy: "案例研究",
     status: {
       live: "已上线",
@@ -1903,7 +1913,7 @@ export const missionMeta: {
   {
     id: "oficina-digital",
     title: "Oficina Digital",
-    link: "https://oficinadigital-cv-saas25.vercel.app/oficina/hereneu-oficina-auto/marcar",
+    link: "https://oficinadigital-cv-saas25.vercel.app/login",
   },
   {
     id: "vektra",
@@ -1924,7 +1934,7 @@ export const siteConfig = {
   email: "yannickm637@gmail.com",
   linkedin: "https://www.linkedin.com/in/yannick-martins-3b3954314/",
   github: "https://github.com/Yannick463",
-  cvPath: publicPath("/cv.pdf"),
+  cvPath: publicPath("/CV_Yannick.pdf"),
 };
 
 export const statusStyles: Record<

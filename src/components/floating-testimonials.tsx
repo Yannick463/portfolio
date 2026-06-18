@@ -5,19 +5,34 @@
  * Do not present fake quotes as verified client testimonials.
  */
 
+import { useSyncExternalStore } from "react";
 import { useLanguage } from "@/components/language-provider";
 
 const indentClasses = ["ml-0", "ml-5", "ml-2", "ml-8", "ml-0", "ml-6"] as const;
 
+function useIsClient() {
+  return useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
+}
+
 export function FloatingTestimonials() {
+  const isClient = useIsClient();
   const { t } = useLanguage();
   const items = t.floatingTestimonials.items;
   const loopItems = [...items, ...items];
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <div
       className="pointer-events-auto fixed bottom-[88px] left-6 top-[88px] z-20 hidden w-[250px] xl:block 2xl:w-[260px]"
       aria-hidden="true"
+      translate="no"
     >
       <div className="floating-comments-rail relative h-full overflow-hidden">
         <div className="floating-comments-track flex flex-col items-start gap-3 px-2">
