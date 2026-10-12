@@ -24,11 +24,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yannick Martins — Software Engineer",
+  title: "Yannick Martins — Software Developer",
   description:
     "I build web applications, AI automations, database-driven systems and secure solutions for real-world problems.",
   keywords: [
-    "Software Engineer",
+    "Software Developer",
     "Full-Stack Developer",
     "Next.js",
     "React",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "Remote Developer",
   ],
   openGraph: {
-    title: "Yannick Martins — Software Engineer",
+    title: "Yannick Martins — Software Developer",
     description:
       "I build web applications, AI automations, database-driven systems and secure solutions for real-world problems.",
     type: "website",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yannick Martins — Software Engineer",
+    title: "Yannick Martins — Software Developer",
     description:
       "I build web applications, AI automations, database-driven systems and secure solutions for real-world problems.",
   },

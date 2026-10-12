@@ -62,12 +62,7 @@ const arrayChecks: {
   label: string;
   getLength: (t: Translations) => number;
 }[] = [
-  {
-    label: "floatingTestimonials.items",
-    getLength: (t) => t.floatingTestimonials.items.length,
-  },
-  { label: "terminal.lines", getLength: (t) => t.terminal.lines.length },
-  { label: "operatingMode.highlights", getLength: (t) => t.operatingMode.highlights.length },
+  { label: "operatingMode.steps", getLength: (t) => t.operatingMode.steps.length },
   { label: "evolution.items", getLength: (t) => t.evolution.items.length },
   { label: "techniques.items", getLength: (t) => t.techniques.items.length },
   { label: "labNotes.items", getLength: (t) => t.labNotes.items.length },
@@ -80,10 +75,6 @@ const idArrayChecks: {
   {
     label: "evolution.items.stage",
     getIds: (t) => t.evolution.items.map((item) => item.stage),
-  },
-  {
-    label: "floatingTestimonials.items.initials",
-    getIds: (t) => t.floatingTestimonials.items.map((item) => item.initials),
   },
 ];
 

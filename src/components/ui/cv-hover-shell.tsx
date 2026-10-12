@@ -5,6 +5,7 @@ type CvHoverShellProps = {
   className?: string;
   cvLine?: "top" | "bottom";
   intensity?: "default" | "subtle";
+  stretchContent?: boolean;
 };
 
 export function CvHoverShell({
@@ -12,6 +13,7 @@ export function CvHoverShell({
   className = "",
   cvLine = "top",
   intensity = "default",
+  stretchContent = false,
 }: CvHoverShellProps) {
   const lineClass =
     cvLine === "bottom"
@@ -37,7 +39,9 @@ export function CvHoverShell({
         className="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_top_left,rgba(31,139,255,0.16),transparent_42%),radial-gradient(circle_at_top_right,rgba(244,247,251,0.06),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(255,59,59,0.12),transparent_42%)] opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         aria-hidden="true"
       />
-      <div className="relative z-10">{children}</div>
+      <div className={stretchContent ? "relative z-10 flex h-full flex-1 flex-col" : "relative z-10"}>
+        {children}
+      </div>
     </div>
   );
 }

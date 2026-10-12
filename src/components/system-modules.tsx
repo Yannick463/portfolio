@@ -28,7 +28,7 @@ export function SystemModules() {
 
   return (
     <section id="system-modules" className="py-20 md:py-28">
-      <div className="section-container with-left-rail-space">
+      <div className="section-container">
         <SectionHeading
           title={t.modules.title}
           subtitle={t.modules.subtitle}

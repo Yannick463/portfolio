@@ -14,7 +14,7 @@ export function EvolutionPath() {
 
   return (
     <section id="evolution-path" className="py-20 md:py-28">
-      <div className="section-container with-left-rail-space">
+      <div className="section-container">
         <SectionHeading
           title={t.evolution.title}
           subtitle={t.evolution.subtitle}

@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -29,6 +30,7 @@ type LanguageContextValue = {
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
+  const pathname = usePathname();
   const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
   const [mounted, setMounted] = useState(false);
 
@@ -48,7 +50,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [locale, mounted]);
 
   useEffect(() => {
-    if (!mounted) return;
+    if (!mounted || pathname !== "/") return;
 
     const { site } = getTranslations(locale);
     document.title = site.title;
@@ -67,7 +69,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     if (ogDescription) {
       ogDescription.setAttribute("content", site.description);
     }
-  }, [locale, mounted]);
+  }, [locale, mounted, pathname]);
 
   const setLocale = useCallback((newLocale: Locale) => {
     setLocaleState(newLocale);

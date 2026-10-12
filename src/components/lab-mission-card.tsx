@@ -6,7 +6,7 @@ import {
   MissionExpandableCard,
 } from "@/components/mission-expandable-card";
 
-type LabMissionId = "ai-automation-lab" | "security-lab";
+type LabMissionId = "linha-6" | "b2b-platform";
 type LabContent = Translations["missions"]["items"][LabMissionId];
 
 type LabMissionCardProps = {

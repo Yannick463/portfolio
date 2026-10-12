@@ -6,6 +6,7 @@ type ContactLinkProps = {
   href: string;
   children: ReactNode;
   external?: boolean;
+  download?: string;
   ariaLabel?: string;
 };
 
@@ -13,11 +14,13 @@ export function ContactLink({
   href,
   children,
   external = false,
+  download,
   ariaLabel,
 }: ContactLinkProps) {
   return (
     <a
       href={href}
+      download={download}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
       aria-label={ariaLabel}

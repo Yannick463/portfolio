@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, type Variants } from "framer-motion";
+import { motion, type Transition, type Variants } from "framer-motion";
 import type { ElementType, ReactNode } from "react";
 import { useMotionSafe } from "@/lib/use-motion-safe";
 import { defaultTransition, fadeUp } from "@/lib/motion";
@@ -10,6 +10,7 @@ type MotionInViewProps = {
   className?: string;
   viewportMargin?: string;
   variants?: Variants;
+  transition?: Transition;
 };
 
 export function MotionInView({
@@ -17,6 +18,7 @@ export function MotionInView({
   className = "",
   viewportMargin = "-60px",
   variants = fadeUp,
+  transition = defaultTransition,
 }: MotionInViewProps) {
   const { canAnimate } = useMotionSafe();
 
@@ -30,7 +32,7 @@ export function MotionInView({
       whileInView="visible"
       viewport={{ once: true, margin: viewportMargin }}
       variants={variants}
-      transition={defaultTransition}
+      transition={transition}
       className={className}
     >
       {children}
@@ -42,6 +44,8 @@ type MotionFadeItemProps = {
   children: ReactNode;
   className?: string;
   as?: "div" | "p" | "h1" | "article";
+  variants?: Variants;
+  transition?: Transition;
 };
 
 const motionTags = {
@@ -55,6 +59,8 @@ export function MotionFadeItem({
   children,
   className = "",
   as = "div",
+  variants = fadeUp,
+  transition = defaultTransition,
 }: MotionFadeItemProps) {
   const { canAnimate } = useMotionSafe();
   const Tag = as as ElementType;
@@ -65,11 +71,7 @@ export function MotionFadeItem({
 
   const MotionTag = motionTags[as];
   return (
-    <MotionTag
-      variants={fadeUp}
-      transition={defaultTransition}
-      className={className}
-    >
+    <MotionTag variants={variants} transition={transition} className={className}>
       {children}
     </MotionTag>
   );

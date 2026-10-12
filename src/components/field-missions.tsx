@@ -15,7 +15,7 @@ export function FieldMissions() {
 
   return (
     <section id="field-missions" className="py-20 md:py-28">
-      <div className="section-container with-left-rail-space">
+      <div className="section-container">
         <SectionHeading
           title={t.missions.title}
           subtitle={t.missions.subtitle}
@@ -58,7 +58,7 @@ export function FieldMissions() {
             }
 
             if (
-              (mission.id === "ai-automation-lab" || mission.id === "security-lab") &&
+              (mission.id === "linha-6" || mission.id === "b2b-platform") &&
               content.flip
             ) {
               return (

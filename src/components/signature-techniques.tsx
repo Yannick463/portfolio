@@ -9,7 +9,7 @@ export function SignatureTechniques() {
 
   return (
     <section id="signature-techniques" className="py-20 md:py-28">
-      <div className="section-container with-left-rail-space">
+      <div className="section-container">
         <SectionHeading
           title={t.techniques.title}
           subtitle={t.techniques.subtitle}

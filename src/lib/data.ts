@@ -5,5 +5,4 @@ export {
   moduleIcons,
   navHrefs,
   statusStyles,
-  labStatusStyles,
 } from "@/lib/i18n";

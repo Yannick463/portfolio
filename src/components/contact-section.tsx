@@ -46,7 +46,7 @@ export function ContactSection() {
             </ContactLink>
             <ContactLink
               href={siteConfig.cvPath}
-              external
+              download="Yannick_Martins_CV.pdf"
               ariaLabel={t.contact.cvAria}
             >
               <Download aria-hidden="true" />

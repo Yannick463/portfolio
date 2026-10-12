@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ChevronLeft, Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { useLanguage } from "@/components/language-provider";
 import { NavLink } from "@/components/ui/nav-link";
@@ -9,8 +11,10 @@ import { navHrefs } from "@/lib/i18n";
 
 export function SiteHeader() {
   const { t } = useLanguage();
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const showNoteBack = pathname === "/notas" || pathname.startsWith("/notas/");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -43,7 +47,26 @@ export function SiteHeader() {
         {t.common.homeAria}
       </a>
 
-      <div className="section-container flex h-16 items-center justify-end gap-3 md:h-18">
+      <div
+        className={`section-container flex h-16 items-center gap-3 md:h-18 ${
+          showNoteBack ? "justify-between" : "justify-end"
+        }`}
+      >
+        {showNoteBack ? (
+          <Link
+            href="/#lab-notes"
+            aria-label={t.labNotes.returnLabel}
+            title={t.labNotes.returnLabel}
+            onClick={closeMobile}
+            className="group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-[10px] border border-transparent bg-transparent text-text-secondary transition-[color,background-color,border-color] duration-[300ms] hover:border-border-subtle/80 hover:bg-bg-secondary/50 hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue/50 focus-visible:ring-offset-2 focus-visible:ring-offset-bg-primary"
+          >
+            <ChevronLeft
+              size={22}
+              aria-hidden="true"
+              className="transition-transform duration-[300ms] motion-safe:group-hover:-translate-x-[2px]"
+            />
+          </Link>
+        ) : null}
         <nav
           className="hidden items-center gap-6 md:flex lg:gap-7"
           aria-label={t.common.mainNav}

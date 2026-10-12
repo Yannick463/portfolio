@@ -1,4 +1,5 @@
 import { ContactSection } from "@/components/contact-section";
+import { CredentialsHighlights } from "@/components/credentials-highlights";
 import { EvolutionPath } from "@/components/evolution-path";
 import { FieldMissions } from "@/components/field-missions";
 import { HeroSection } from "@/components/hero-section";
@@ -14,6 +15,7 @@ export default function Home() {
       <OperatingMode />
       <SystemModules />
       <EvolutionPath />
+      <CredentialsHighlights />
       <FieldMissions />
       <SignatureTechniques />
       <LabNotes />
