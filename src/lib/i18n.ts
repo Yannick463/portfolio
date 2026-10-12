@@ -8,10 +8,10 @@ export const STORAGE_KEY = "shadow-core-locale";
 export const SUPPORTED_LOCALES: Locale[] = ["pt", "en", "fr", "zh"];
 
 export const localeOptions = [
-  { code: "pt" as const, label: "PortuguÃªs", short: "PT" },
+  { code: "pt" as const, label: "Português", short: "PT" },
   { code: "en" as const, label: "English", short: "EN" },
-  { code: "fr" as const, label: "FranÃ§ais", short: "FR" },
-  { code: "zh" as const, label: "ä¸­æ–‡", short: "ZH" },
+  { code: "fr" as const, label: "Français", short: "FR" },
+  { code: "zh" as const, label: "中文", short: "ZH" },
 ];
 
 export type MissionId =
@@ -172,7 +172,7 @@ export type Translations = {
 
 const en: Translations = {
   site: {
-    title: "Yannick Martins â€” Software Developer",
+    title: "Yannick Martins — Software Developer",
     description:
       "I build web applications, AI automations, database-driven systems and secure solutions for real-world problems.",
   },
@@ -342,7 +342,7 @@ const en: Translations = {
           "Selected for the Re!venta Hackathon in Mindelo, run by Cabo Digital. The team built a digital solution applied to the vehicle inspection process.",
         highlight: "4th place",
         imageAlt:
-          "Re!venta Hackathon by Cabo Digital in Mindelo â€” team participation in vehicle inspection software",
+          "Re!venta Hackathon by Cabo Digital in Mindelo — team participation in vehicle inspection software",
       },
       payaig: {
         metaType: "FELLOWSHIP",
@@ -408,7 +408,7 @@ const en: Translations = {
           ],
           stackTitle: "Stack",
           stackSummary:
-            "Next.js Â· TypeScript Â· React Â· Tailwind CSS Â· Prisma Â· PostgreSQL Â· Supabase Â· Vercel",
+            "Next.js · TypeScript · React · Tailwind CSS · Prisma · PostgreSQL · Supabase · Vercel",
           chips: ["SaaS", "Admin", "Booking", "Email", "Storage", "i18n"],
         },
       },
@@ -444,7 +444,7 @@ const en: Translations = {
           ],
           stackTitle: "Stack",
           stackSummary:
-            "TypeScript Â· Node.js Â· React Native Â· Expo Â· Next.js Â· PostgreSQL Â· Redis Â· Mapbox Â· OSRM",
+            "TypeScript · Node.js · React Native · Expo · Next.js · PostgreSQL · Redis · Mapbox · OSRM",
           chips: ["Guardian Routing", "Route Authority", "Liveness", "VektraGEO"],
         },
       },
@@ -478,7 +478,7 @@ const en: Translations = {
           ],
           stackTitle: "Technical",
           stackSummary:
-            "Next.js Â· React Â· TypeScript Â· Fastify Â· PostgreSQL Â· Supabase Â· Vite",
+            "Next.js · React · TypeScript · Fastify · PostgreSQL · Supabase · Vite",
           chips: [
             "authentication",
             "RBAC",
@@ -576,10 +576,10 @@ const en: Translations = {
     cvAria: "Download CV",
   },
   footer: {
-    copyright: "Â© 2026 Developed by Yannick Martins",
+    copyright: "© 2026 Developed by Yannick Martins",
   },
   common: {
-    homeAria: "Yannick Martins â€” home",
+    homeAria: "Yannick Martins — home",
     mainNav: "Main navigation",
     mobileNav: "Mobile navigation",
     openMenu: "Open menu",
@@ -595,26 +595,26 @@ const en: Translations = {
 
 const pt: Translations = {
   site: {
-    title: "Yannick Martins â€” Desenvolvedor de Software",
+    title: "Yannick Martins — Desenvolvedor de Software",
     description:
-      "Construo aplicaÃ§Ãµes web, automaÃ§Ãµes com IA, sistemas orientados por bases de dados e soluÃ§Ãµes seguras para problemas reais.",
+      "Construo aplicações web, automações com IA, sistemas orientados por bases de dados e soluções seguras para problemas reais.",
   },
   nav: {
     systems: "Sistemas",
-    modules: "MÃ³dulos",
-    evolution: "EvoluÃ§Ã£o",
-    missions: "MissÃµes",
+    modules: "Módulos",
+    evolution: "Evolução",
+    missions: "Missões",
     contact: "Contacto",
   },
   hero: {
     role: "Desenvolvedor de Software",
     subtitle:
-      "Construo aplicaÃ§Ãµes web, automaÃ§Ãµes com IA, sistemas orientados por bases de dados e soluÃ§Ãµes seguras para problemas reais.",
+      "Construo aplicações web, automações com IA, sistemas orientados por bases de dados e soluções seguras para problemas reais.",
   },
   operatingMode: {
-    title: "Modo de OperaÃ§Ã£o",
+    title: "Modo de Operação",
     textBefore:
-      "Trabalho de forma reservada, focada e orientada ao desenvolvimento de software: comeÃ§o pelos requisitos, risco e fluxo real; depois modelo dados, APIs, seguranÃ§a e entrega. O objetivo Ã© criar software Ãºtil, seguro e preparado para evoluir.",
+      "Trabalho de forma reservada, focada e orientada ao desenvolvimento de software: começo pelos requisitos, risco e fluxo real; depois modelo dados, APIs, segurança e entrega. O objetivo é criar software útil, seguro e preparado para evoluir.",
     highlight: "",
     textAfter: "",
     steps: [
@@ -624,19 +624,19 @@ const pt: Translations = {
       },
       {
         title: "Modelar",
-        description: "Organizar dados, entidades e relaÃ§Ãµes com clareza.",
+        description: "Organizar dados, entidades e relações com clareza.",
       },
       {
         title: "Construir",
-        description: "Implementar interface, lÃ³gica e backend de forma integrada.",
+        description: "Implementar interface, lógica e backend de forma integrada.",
       },
       {
         title: "Validar",
-        description: "Testar comportamento real, nÃ£o apenas aparÃªncia.",
+        description: "Testar comportamento real, não apenas aparência.",
       },
       {
         title: "Proteger",
-        description: "Aplicar validaÃ§Ã£o, controlo de acesso e seguranÃ§a.",
+        description: "Aplicar validação, controlo de acesso e segurança.",
       },
       {
         title: "Entregar",
@@ -645,9 +645,9 @@ const pt: Translations = {
     ],
   },
   modules: {
-    title: "MÃ³dulos do Sistema",
+    title: "Módulos do Sistema",
     subtitle:
-      "As camadas tÃ©cnicas que uso para transformar ideias em sistemas reais.",
+      "As camadas técnicas que uso para transformar ideias em sistemas reais.",
     items: {
       interface: {
         title: "Camada de Interface",
@@ -660,7 +660,7 @@ const pt: Translations = {
         ],
       },
       logic: {
-        title: "Camada de LÃ³gica",
+        title: "Camada de Lógica",
         items: [
           "Node.js",
           "JavaScript",
@@ -685,22 +685,22 @@ const pt: Translations = {
           "Docker",
           "AWS",
           "Vercel",
-          "VariÃ¡veis de ambiente",
+          "Variáveis de ambiente",
           "Deploy",
         ],
       },
       security: {
-        title: "Camada de SeguranÃ§a",
+        title: "Camada de Segurança",
         items: [
           "Linux",
           "Redes",
           "OWASP",
           "Nmap / Burp Suite",
-          "SeguranÃ§a Wi-Fi autorizada",
+          "Segurança Wi-Fi autorizada",
         ],
       },
       engineering: {
-        title: "Camada TÃ©cnica",
+        title: "Camada Técnica",
         items: [
           "Requirements",
           "SysML / UML",
@@ -712,15 +712,15 @@ const pt: Translations = {
     },
   },
   evolution: {
-    title: "Percurso de EvoluÃ§Ã£o",
+    title: "Percurso de Evolução",
     subtitle:
-      "Uma evoluÃ§Ã£o tÃ©cnica construÃ­da com disciplina, prÃ¡tica e foco em sistemas reais.",
+      "Uma evolução técnica construída com disciplina, prática e foco em sistemas reais.",
     stageLabel: "FASE",
     items: [
       {
         stage: "01",
-        title: "FundaÃ§Ã£o",
-        items: ["HTML", "CSS", "JavaScript", "LÃ³gica de programaÃ§Ã£o"],
+        title: "Fundação",
+        items: ["HTML", "CSS", "JavaScript", "Lógica de programação"],
       },
       {
         stage: "02",
@@ -729,18 +729,18 @@ const pt: Translations = {
           "React",
           "Next.js",
           "UI responsiva",
-          "Componentes reutilizÃ¡veis",
+          "Componentes reutilizáveis",
         ],
       },
       {
         stage: "03",
         title: "Sistemas",
-        items: ["Node.js", "APIs REST", "AutenticaÃ§Ã£o", "Arquitetura backend"],
+        items: ["Node.js", "APIs REST", "Autenticação", "Arquitetura backend"],
       },
       {
         stage: "04",
-        title: "InteligÃªncia",
-        items: ["IA", "AutomaÃ§Ã£o", "Agentes", "Fluxos LLM"],
+        title: "Inteligência",
+        items: ["IA", "Automação", "Agentes", "Fluxos LLM"],
       },
       {
         stage: "05",
@@ -749,7 +749,7 @@ const pt: Translations = {
           "Linux",
           "Redes",
           "OWASP",
-          "SeguranÃ§a web",
+          "Segurança web",
         ],
       },
       {
@@ -757,8 +757,8 @@ const pt: Translations = {
         title: "Operador",
         items: [
           "Produto real",
-          "Deploy em produÃ§Ã£o",
-          "VisÃ£o de negÃ³cio",
+          "Deploy em produção",
+          "Visão de negócio",
           "Valor para cliente",
         ],
       },
@@ -767,52 +767,52 @@ const pt: Translations = {
   credentials: {
     title: "Destaques & Credenciais",
     subtitle:
-      "ExperiÃªncias, formaÃ§Ã£o e reconhecimento para alÃ©m do cÃ³digo.",
+      "Experiências, formação e reconhecimento para além do código.",
     items: {
       reinventa: {
         metaType: "HACKATHON",
         metaYear: "2026",
         title: "Re!venta Hackathon",
         description:
-          "Selecionado para o Re!venta Hackathon, realizado no Mindelo pela Cabo Digital. A equipa desenvolveu uma soluÃ§Ã£o digital aplicada ao processo de inspeÃ§Ã£o veicular.",
-        highlight: "4.Âº lugar",
+          "Selecionado para o Re!venta Hackathon, realizado no Mindelo pela Cabo Digital. A equipa desenvolveu uma solução digital aplicada ao processo de inspeção veicular.",
+        highlight: "4.º lugar",
         imageAlt:
-          "Re!venta Hackathon da Cabo Digital no Mindelo â€” participaÃ§Ã£o em equipa numa soluÃ§Ã£o de inspeÃ§Ã£o veicular",
+          "Re!venta Hackathon da Cabo Digital no Mindelo — participação em equipa numa solução de inspeção veicular",
       },
       payaig: {
         metaType: "FELLOWSHIP",
         metaYear: "2023",
         title: "Internet Governance Fellowship",
         description:
-          "ConclusÃ£o da Internet Governance Fellowship da Pan-African Youth Ambassadors for Internet Governance, na coorte de lÃ­ngua portuguesa.",
+          "Conclusão da Internet Governance Fellowship da Pan-African Youth Ambassadors for Internet Governance, na coorte de língua portuguesa.",
         highlight: "Internet Governance",
         imageAlt:
-          "Certificado da Internet Governance Fellowship atribuÃ­do a Yannick Martins pelo PAYAIG",
+          "Certificado da Internet Governance Fellowship atribuído a Yannick Martins pelo PAYAIG",
       },
     },
   },
   missions: {
-    title: "MissÃµes de Campo",
+    title: "Missões de Campo",
     subtitle:
       "Projetos e conceitos que mostram como transformo problemas em sistemas reais.",
     problemLabel: "Problema",
-    solutionLabel: "SoluÃ§Ã£o",
+    solutionLabel: "Solução",
     viewProject: "Ver projeto",
     showDetails: "Detalhes",
     hideDetails: "Ocultar detalhes",
     caseStudy: "Estudo de caso",
     status: {
-      live: "Em produÃ§Ã£o",
-      concept: "Conceito / VisÃ£o de produto",
+      live: "Em produção",
+      concept: "Conceito / Visão de produto",
       inProgress: "Em progresso",
-      preDeploy: "PrÃ©-deploy",
+      preDeploy: "Pré-deploy",
       inDevelopment: "Em desenvolvimento",
     },
     items: {
       "oficina-digital": {
-        subtitle: "AplicaÃ§Ã£o web para oficinas auto em Cabo Verde",
+        subtitle: "Aplicação web para oficinas auto em Cabo Verde",
         description:
-          "Plataforma que permite oficinas receberem pedidos online, organizarem serviÃ§os, clientes, veÃ­culos, agenda e comunicaÃ§Ã£o num painel simples.",
+          "Plataforma que permite oficinas receberem pedidos online, organizarem serviços, clientes, veículos, agenda e comunicação num painel simples.",
         stack: [
           "Next.js",
           "TypeScript",
@@ -825,32 +825,32 @@ const pt: Translations = {
         ],
         statusKey: "live",
         flip: {
-          participationTitle: "Minha participaÃ§Ã£o",
+          participationTitle: "Minha participação",
           tapHint: "Toque para ver detalhes",
-          builtTitle: "ConstruÃ­",
+          builtTitle: "Construí",
           builtItems: [
             "Plataforma web completa",
-            "PÃ¡gina pÃºblica de marcaÃ§Ã£o",
+            "Página pública de marcação",
             "Painel da oficina",
             "Super Admin da plataforma",
           ],
           featuresTitle: "Funcionalidades",
           featuresItems: [
             "Pedidos online com fotos",
-            "ServiÃ§os, clientes e veÃ­culos",
+            "Serviços, clientes e veículos",
             "Agenda e datas bloqueadas",
-            "NotificaÃ§Ãµes, e-mails e avaliaÃ§Ãµes",
+            "Notificações, e-mails e avaliações",
           ],
           stackTitle: "Stack",
           stackSummary:
-            "Next.js Â· TypeScript Â· React Â· Tailwind CSS Â· Prisma Â· PostgreSQL Â· Supabase Â· Vercel",
+            "Next.js · TypeScript · React · Tailwind CSS · Prisma · PostgreSQL · Supabase · Vercel",
           chips: ["SaaS", "Admin", "Booking", "Email", "Storage", "i18n"],
         },
       },
       vektra: {
         subtitle: "Plataforma de mobilidade inteligente",
         description:
-          "SoluÃ§Ã£o digital de mobilidade com foco em passageiro, motorista, acessibilidade, seguranÃ§a e dados urbanos.",
+          "Solução digital de mobilidade com foco em passageiro, motorista, acessibilidade, segurança e dados urbanos.",
         stack: [
           "React Native",
           "Expo",
@@ -863,13 +863,13 @@ const pt: Translations = {
         ],
         statusKey: "inProgress",
         flip: {
-          participationTitle: "Minha participaÃ§Ã£o",
+          participationTitle: "Minha participação",
           tapHint: "Toque para ver detalhes",
-          builtTitle: "ConstruÃ­",
+          builtTitle: "Construí",
           builtItems: [
             "IA VEKTRA",
             "VEKTRA Kids",
-            "Liveness / verificaÃ§Ã£o facial",
+            "Liveness / verificação facial",
           ],
           contributedTitle: "Participei em",
           contributedItems: [
@@ -879,14 +879,14 @@ const pt: Translations = {
           ],
           stackTitle: "Stack",
           stackSummary:
-            "TypeScript Â· Node.js Â· React Native Â· Expo Â· Next.js Â· PostgreSQL Â· Redis Â· Mapbox Â· OSRM",
+            "TypeScript · Node.js · React Native · Expo · Next.js · PostgreSQL · Redis · Mapbox · OSRM",
           chips: ["Guardian Routing", "Route Authority", "Liveness", "VektraGEO"],
         },
       },
       "linha-6": {
         subtitle: "Plataforma digital institucional",
         description:
-          "Website institucional integrado a um painel administrativo e API para gestÃ£o e publicaÃ§Ã£o de conteÃºdos, serviÃ§os, equipa, media e comunicaÃ§Ã£o.",
+          "Website institucional integrado a um painel administrativo e API para gestão e publicação de conteúdos, serviços, equipa, media e comunicação.",
         stack: ["Next.js", "React", "Fastify", "PostgreSQL", "Supabase"],
         statusKey: "preDeploy",
         flip: {
@@ -894,33 +894,33 @@ const pt: Translations = {
           tapHint: "Toque para ver detalhes",
           builtTitle: "Arquitetura",
           builtItems: [
-            "Website pÃºblico em Next.js",
+            "Website público em Next.js",
             "Admin separado em Vite/React",
             "API Fastify",
             "PostgreSQL/Supabase",
           ],
-          contributedTitle: "GestÃ£o",
+          contributedTitle: "Gestão",
           contributedItems: [
-            "ConteÃºdos",
-            "ServiÃ§os e Ã¡reas",
+            "Conteúdos",
+            "Serviços e áreas",
             "Equipa",
             "Media",
             "Contactos",
             "Newsletter",
             "Banners",
-            "DefiniÃ§Ãµes do site",
-            "PÃ¡ginas legais",
+            "Definições do site",
+            "Páginas legais",
           ],
-          stackTitle: "TÃ©cnica",
+          stackTitle: "Técnica",
           stackSummary:
-            "Next.js Â· React Â· TypeScript Â· Fastify Â· PostgreSQL Â· Supabase Â· Vite",
+            "Next.js · React · TypeScript · Fastify · PostgreSQL · Supabase · Vite",
           chips: [
-            "autenticaÃ§Ã£o",
+            "autenticação",
             "RBAC",
-            "sessÃ£o",
+            "sessão",
             "CSRF",
-            "validaÃ§Ã£o",
-            "fluxo rascunho/publicaÃ§Ã£o",
+            "validação",
+            "fluxo rascunho/publicação",
             "testes automatizados",
             "Docker",
           ],
@@ -929,78 +929,78 @@ const pt: Translations = {
       "b2b-platform": {
         subtitle: "Ecossistema digital para investimento e encontros empresariais",
         description:
-          "Plataforma concebida para ligar participantes, investidores, expositores, reuniÃµes e oportunidades de negÃ³cio num Ãºnico ecossistema digital.",
-        stack: ["Marketplace B2B", "ReuniÃµes", "QR / Check-in", "Admin / BI", "Deal Room"],
+          "Plataforma concebida para ligar participantes, investidores, expositores, reuniões e oportunidades de negócio num único ecossistema digital.",
+        stack: ["Marketplace B2B", "Reuniões", "QR / Check-in", "Admin / BI", "Deal Room"],
         statusKey: "inDevelopment",
         flip: {
           participationTitle: "Escopo",
           tapHint: "Toque para ver detalhes",
           builtTitle: "Objetivo",
           builtItems: [
-            "Criar um ecossistema digital para aproximar empresas, investidores, expositores e oportunidades de negÃ³cio.",
+            "Criar um ecossistema digital para aproximar empresas, investidores, expositores e oportunidades de negócio.",
           ],
-          contributedTitle: "MÃ³dulos previstos",
+          contributedTitle: "Módulos previstos",
           contributedItems: [
             "marketplace B2B",
             "perfis de participantes e investidores",
-            "agenda e reuniÃµes",
+            "agenda e reuniões",
             "oportunidades",
             "QR / check-in",
             "mapa de investidores",
-            "administraÃ§Ã£o e BI",
+            "administração e BI",
             "pipeline / Deal Room",
-            "recomendaÃ§Ã£o e matching, quando suportado pelo projeto",
+            "recomendação e matching, quando suportado pelo projeto",
           ],
           stackTitle: "Estado",
           stackSummary:
-            "MÃ³dulos previstos e arquitetura planeada, em desenvolvimento. Nem todos estÃ£o concluÃ­dos.",
+            "Módulos previstos e arquitetura planeada, em desenvolvimento. Nem todos estão concluídos.",
           chips: [],
         },
       },
     },
   },
   techniques: {
-    title: "PrincÃ­pios de Desenvolvimento",
+    title: "Princípios de Desenvolvimento",
     subtitle:
-      "Como estruturo produtos, dados e seguranÃ§a antes de escrever cÃ³digo.",
+      "Como estruturo produtos, dados e segurança antes de escrever código.",
     items: [
       {
-        title: "Produto antes de cÃ³digo",
+        title: "Produto antes de código",
         description:
           "Entendo o fluxo real do utilizador antes de escolher telas, APIs ou base de dados.",
       },
       {
-        title: "Requisitos antes da soluÃ§Ã£o",
+        title: "Requisitos antes da solução",
         description:
-          "Organizo requisitos, riscos e critÃ©rios de validaÃ§Ã£o antes de avanÃ§ar para implementaÃ§Ã£o.",
+          "Organizo requisitos, riscos e critérios de validação antes de avançar para implementação.",
       },
       {
         title: "Backend como fonte da verdade",
         description:
-          "Estados, permissÃµes, pedidos e regras crÃ­ticas devem ser validados no servidor.",
+          "Estados, permissões, pedidos e regras críticas devem ser validados no servidor.",
       },
       {
         title: "Dados organizados",
         description:
-          "Modelo entidades, relaÃ§Ãµes, estados e histÃ³rico para o sistema crescer sem virar confusÃ£o.",
+          "Modelo entidades, relações, estados e histórico para o sistema crescer sem virar confusão.",
       },
       {
-        title: "SeguranÃ§a desde o inÃ­cio",
+        title: "Segurança desde o início",
         description:
-          "Penso em autenticaÃ§Ã£o, permissÃµes, payloads seguros e validaÃ§Ã£o antes da entrega.",
+          "Penso em autenticação, permissões, payloads seguros e validação antes da entrega.",
       },
       {
-        title: "Entrega incremental e verificÃ¡vel",
+        title: "Entrega incremental e verificável",
         description:
-          "Prefiro evoluir por etapas pequenas, testÃ¡veis e alinhadas com valor real.",
+          "Prefiro evoluir por etapas pequenas, testáveis e alinhadas com valor real.",
       },
     ],
   },
   labNotes: technicalNotes.pt,
   contact: {
-    title: "Vamos construir algo Ãºtil.",
+    title: "Vamos construir algo útil.",
     subtitle:
-      "DisponÃ­vel para trabalho remoto, projetos freelance e colaboraÃ§Ãµes em aplicaÃ§Ãµes web, automaÃ§Ã£o com IA e sistemas digitais seguros.",
+      "Disponível para trabalho remoto, projetos freelance e colaborações em aplicações web, automação com IA e sistemas digitais seguros.",
     emailMe: "Email",
     linkedin: "LinkedIn",
     github: "GitHub",
@@ -1011,17 +1011,17 @@ const pt: Translations = {
     cvAria: "Baixar CV",
   },
   footer: {
-    copyright: "Â© 2026 Desenvolvido por Yannick Martins",
+    copyright: "© 2026 Desenvolvido por Yannick Martins",
   },
   common: {
-    homeAria: "Yannick Martins â€” inÃ­cio",
-    mainNav: "NavegaÃ§Ã£o principal",
-    mobileNav: "NavegaÃ§Ã£o mÃ³vel",
+    homeAria: "Yannick Martins — início",
+    mainNav: "Navegação principal",
+    mobileNav: "Navegação móvel",
     openMenu: "Abrir menu",
     closeMenu: "Fechar menu",
     selectLanguage: "Alterar idioma",
     languageMenu: "Menu de idiomas",
-    coreActive: "NÃšCLEO // ATIVO",
+    coreActive: "NÚCLEO // ATIVO",
     viewProjectAria: "Ver projeto",
     avatarAlt: "Avatar estilizado de Yannick Martins",
     externalLinkAria: "Abre num novo separador",
@@ -1030,59 +1030,59 @@ const pt: Translations = {
 
 const fr: Translations = {
   site: {
-    title: "Yannick Martins â€” DÃ©veloppeur logiciel",
+    title: "Yannick Martins — Développeur logiciel",
     description:
-      "Je construis des applications web, des automatisations avec IA, des systÃ¨mes orientÃ©s donnÃ©es et des solutions sÃ©curisÃ©es pour des problÃ¨mes rÃ©els.",
+      "Je construis des applications web, des automatisations avec IA, des systèmes orientés données et des solutions sécurisées pour des problèmes réels.",
   },
   nav: {
-    systems: "SystÃ¨mes",
+    systems: "Systèmes",
     modules: "Modules",
-    evolution: "Ã‰volution",
+    evolution: "Évolution",
     missions: "Missions",
     contact: "Contact",
   },
   hero: {
-    role: "DÃ©veloppeur logiciel",
+    role: "Développeur logiciel",
     subtitle:
-      "Je construis des applications web, des automatisations avec IA, des systÃ¨mes orientÃ©s donnÃ©es et des solutions sÃ©curisÃ©es pour des problÃ¨mes rÃ©els.",
+      "Je construis des applications web, des automatisations avec IA, des systèmes orientés données et des solutions sécurisées pour des problèmes réels.",
   },
   operatingMode: {
-    title: "Mode opÃ©ratoire",
+    title: "Mode opératoire",
     textBefore:
-      "Je travaille de maniÃ¨re rÃ©servÃ©e, concentrÃ©e et orientÃ©e vers le dÃ©veloppement logiciel : je commence par les exigences, les risques et le flux rÃ©el ; puis je modÃ©lise les donnÃ©es, les APIs, la sÃ©curitÃ© et la livraison. L'objectif est de construire des logiciels utiles, sÃ»rs et capables d'Ã©voluer.",
+      "Je travaille de manière réservée, concentrée et orientée vers le développement logiciel : je commence par les exigences, les risques et le flux réel ; puis je modélise les données, les APIs, la sécurité et la livraison. L'objectif est de construire des logiciels utiles, sûrs et capables d'évoluer.",
     highlight: "",
     textAfter: "",
     steps: [
       {
         title: "Comprendre",
-        description: "Saisir le problÃ¨me, le flux et les limites rÃ©elles.",
+        description: "Saisir le problème, le flux et les limites réelles.",
       },
       {
-        title: "ModÃ©liser",
-        description: "Organiser les donnÃ©es, les entitÃ©s et les relations avec clartÃ©.",
+        title: "Modéliser",
+        description: "Organiser les données, les entités et les relations avec clarté.",
       },
       {
         title: "Construire",
-        description: "ImplÃ©menter l'interface, la logique et le backend de faÃ§on intÃ©grÃ©e.",
+        description: "Implémenter l'interface, la logique et le backend de façon intégrée.",
       },
       {
         title: "Valider",
-        description: "Tester le comportement rÃ©el, pas seulement l'apparence.",
+        description: "Tester le comportement réel, pas seulement l'apparence.",
       },
       {
-        title: "ProtÃ©ger",
-        description: "Appliquer la validation, le contrÃ´le d'accÃ¨s et la sÃ©curitÃ©.",
+        title: "Protéger",
+        description: "Appliquer la validation, le contrôle d'accès et la sécurité.",
       },
       {
         title: "Livrer",
-        description: "Publier quelque chose de fonctionnel et prÃªt Ã  Ã©voluer.",
+        description: "Publier quelque chose de fonctionnel et prêt à évoluer.",
       },
     ],
   },
   modules: {
-    title: "Modules SystÃ¨me",
+    title: "Modules Système",
     subtitle:
-      "Les couches techniques que j'utilise pour transformer des idÃ©es en systÃ¨mes rÃ©els.",
+      "Les couches techniques que j'utilise pour transformer des idées en systèmes réels.",
     items: {
       interface: {
         title: "Couche Interface",
@@ -1105,12 +1105,12 @@ const fr: Translations = {
         ],
       },
       data: {
-        title: "Couche DonnÃ©es",
+        title: "Couche Données",
         items: [
           "PostgreSQL",
           "MySQL",
           "Prisma",
-          "ModÃ©lisation relationnelle",
+          "Modélisation relationnelle",
           "Migrations",
         ],
       },
@@ -1121,17 +1121,17 @@ const fr: Translations = {
           "AWS",
           "Vercel",
           "Variables d'environnement",
-          "DÃ©ploiement",
+          "Déploiement",
         ],
       },
       security: {
-        title: "Couche SÃ©curitÃ©",
+        title: "Couche Sécurité",
         items: [
           "Linux",
-          "RÃ©seaux",
+          "Réseaux",
           "OWASP",
           "Nmap / Burp Suite",
-          "SÃ©curitÃ© Wi-Fi autorisÃ©e",
+          "Sécurité Wi-Fi autorisée",
         ],
       },
       engineering: {
@@ -1147,10 +1147,10 @@ const fr: Translations = {
     },
   },
   evolution: {
-    title: "Parcours d'Ã‰volution",
+    title: "Parcours d'Évolution",
     subtitle:
-      "Une Ã©volution technique construite avec discipline, pratique et focus sur des systÃ¨mes rÃ©els.",
-    stageLabel: "Ã‰TAPE",
+      "Une évolution technique construite avec discipline, pratique et focus sur des systèmes réels.",
+    stageLabel: "ÉTAPE",
     items: [
       {
         stage: "01",
@@ -1164,12 +1164,12 @@ const fr: Translations = {
           "React",
           "Next.js",
           "UI responsive",
-          "Composants rÃ©utilisables",
+          "Composants réutilisables",
         ],
       },
       {
         stage: "03",
-        title: "SystÃ¨mes",
+        title: "Systèmes",
         items: ["Node.js", "APIs REST", "Authentification", "Architecture backend"],
       },
       {
@@ -1179,21 +1179,21 @@ const fr: Translations = {
       },
       {
         stage: "05",
-        title: "DÃ©fense",
+        title: "Défense",
         items: [
           "Linux",
-          "RÃ©seaux",
+          "Réseaux",
           "OWASP",
-          "SÃ©curitÃ© web",
+          "Sécurité web",
         ],
       },
       {
         stage: "06",
-        title: "OpÃ©rateur",
+        title: "Opérateur",
         items: [
-          "Produit rÃ©el",
-          "DÃ©ploiement en production",
-          "Vision mÃ©tier",
+          "Produit réel",
+          "Déploiement en production",
+          "Vision métier",
           "Valeur client",
         ],
       },
@@ -1202,52 +1202,52 @@ const fr: Translations = {
   credentials: {
     title: "Temps forts & qualifications",
     subtitle:
-      "ExpÃ©riences, formation et reconnaissance au-delÃ  du code.",
+      "Expériences, formation et reconnaissance au-delà du code.",
     items: {
       reinventa: {
         metaType: "HACKATHON",
         metaYear: "2026",
         title: "Re!venta Hackathon",
         description:
-          "SÃ©lectionnÃ© pour le Re!venta Hackathon Ã  Mindelo, organisÃ© par Cabo Digital. L'Ã©quipe a dÃ©veloppÃ© une solution numÃ©rique appliquÃ©e au processus d'inspection vÃ©hiculaire.",
+          "Sélectionné pour le Re!venta Hackathon à Mindelo, organisé par Cabo Digital. L'équipe a développé une solution numérique appliquée au processus d'inspection véhiculaire.",
         highlight: "4e place",
         imageAlt:
-          "Re!venta Hackathon de Cabo Digital Ã  Mindelo â€” participation en Ã©quipe sur l'inspection vÃ©hiculaire",
+          "Re!venta Hackathon de Cabo Digital à Mindelo — participation en équipe sur l'inspection véhiculaire",
       },
       payaig: {
         metaType: "FELLOWSHIP",
         metaYear: "2023",
         title: "Internet Governance Fellowship",
         description:
-          "AchÃ¨vement de l'Internet Governance Fellowship auprÃ¨s de Pan-African Youth Ambassadors for Internet Governance, dans la cohorte de langue portugaise.",
+          "Achèvement de l'Internet Governance Fellowship auprès de Pan-African Youth Ambassadors for Internet Governance, dans la cohorte de langue portugaise.",
         highlight: "Internet Governance",
         imageAlt:
-          "Certificat de l'Internet Governance Fellowship dÃ©cernÃ© Ã  Yannick Martins par le PAYAIG",
+          "Certificat de l'Internet Governance Fellowship décerné à Yannick Martins par le PAYAIG",
       },
     },
   },
   missions: {
     title: "Missions de Terrain",
     subtitle:
-      "Projets et concepts qui montrent comment je transforme des problÃ¨mes en systÃ¨mes rÃ©els.",
-    problemLabel: "ProblÃ¨me",
+      "Projets et concepts qui montrent comment je transforme des problèmes en systèmes réels.",
+    problemLabel: "Problème",
     solutionLabel: "Solution",
     viewProject: "Voir le projet",
-    showDetails: "DÃ©tails",
-    hideDetails: "Masquer les dÃ©tails",
-    caseStudy: "Ã‰tude de cas",
+    showDetails: "Détails",
+    hideDetails: "Masquer les détails",
+    caseStudy: "Étude de cas",
     status: {
       live: "En production",
       concept: "Concept / Vision produit",
       inProgress: "En cours",
-      preDeploy: "PrÃ©-dÃ©ploiement",
-      inDevelopment: "En dÃ©veloppement",
+      preDeploy: "Pré-déploiement",
+      inDevelopment: "En développement",
     },
     items: {
       "oficina-digital": {
         subtitle: "Application web pour ateliers automobiles au Cabo Verde",
         description:
-          "Une plateforme qui aide les ateliers Ã  recevoir des demandes en ligne, organiser les services, clients, vÃ©hicules, planning et communication dans un tableau de bord simple.",
+          "Une plateforme qui aide les ateliers à recevoir des demandes en ligne, organiser les services, clients, véhicules, planning et communication dans un tableau de bord simple.",
         stack: [
           "Next.js",
           "TypeScript",
@@ -1261,31 +1261,31 @@ const fr: Translations = {
         statusKey: "live",
         flip: {
           participationTitle: "Ma contribution",
-          tapHint: "Appuyer pour les dÃ©tails",
-          builtTitle: "DÃ©veloppÃ©",
+          tapHint: "Appuyer pour les détails",
+          builtTitle: "Développé",
           builtItems: [
-            "Plateforme web complÃ¨te",
-            "Page publique de rÃ©servation",
+            "Plateforme web complète",
+            "Page publique de réservation",
             "Tableau de bord atelier",
             "Super Admin de la plateforme",
           ],
-          featuresTitle: "FonctionnalitÃ©s",
+          featuresTitle: "Fonctionnalités",
           featuresItems: [
             "Demandes en ligne avec photos",
-            "Services, clients et vÃ©hicules",
-            "Planning et dates bloquÃ©es",
-            "Notifications, e-mails et Ã©valuations",
+            "Services, clients et véhicules",
+            "Planning et dates bloquées",
+            "Notifications, e-mails et évaluations",
           ],
           stackTitle: "Stack",
           stackSummary:
-            "Next.js Â· TypeScript Â· React Â· Tailwind CSS Â· Prisma Â· PostgreSQL Â· Supabase Â· Vercel",
+            "Next.js · TypeScript · React · Tailwind CSS · Prisma · PostgreSQL · Supabase · Vercel",
           chips: ["SaaS", "Admin", "Booking", "Email", "Storage", "i18n"],
         },
       },
       vektra: {
-        subtitle: "Plateforme de mobilitÃ© intelligente",
+        subtitle: "Plateforme de mobilité intelligente",
         description:
-          "Solution de mobilitÃ© numÃ©rique axÃ©e sur passager, conducteur, accessibilitÃ©, sÃ©curitÃ© et donnÃ©es urbaines.",
+          "Solution de mobilité numérique axée sur passager, conducteur, accessibilité, sécurité et données urbaines.",
         stack: [
           "React Native",
           "Expo",
@@ -1299,38 +1299,38 @@ const fr: Translations = {
         statusKey: "inProgress",
         flip: {
           participationTitle: "Ma contribution",
-          tapHint: "Appuyer pour les dÃ©tails",
-          builtTitle: "DÃ©veloppÃ©",
+          tapHint: "Appuyer pour les détails",
+          builtTitle: "Développé",
           builtItems: [
             "IA VEKTRA",
             "VEKTRA Kids",
-            "Liveness / vÃ©rification faciale",
+            "Liveness / vérification faciale",
           ],
-          contributedTitle: "Participation Ã ",
+          contributedTitle: "Participation à",
           contributedItems: [
             "VEKTRAGEO",
             "Passager, Conducteur et PCD",
-            "Backend de l'Ã©cosystÃ¨me",
+            "Backend de l'écosystème",
           ],
           stackTitle: "Stack",
           stackSummary:
-            "TypeScript Â· Node.js Â· React Native Â· Expo Â· Next.js Â· PostgreSQL Â· Redis Â· Mapbox Â· OSRM",
+            "TypeScript · Node.js · React Native · Expo · Next.js · PostgreSQL · Redis · Mapbox · OSRM",
           chips: ["Guardian Routing", "Route Authority", "Liveness", "VektraGEO"],
         },
       },
       "linha-6": {
         subtitle: "Plateforme digitale institutionnelle",
         description:
-          "Site institutionnel intÃ©grÃ© Ã  un panneau d'administration et Ã  une API pour gÃ©rer et publier contenus, services, Ã©quipe, mÃ©dias et communication.",
+          "Site institutionnel intégré à un panneau d'administration et à une API pour gérer et publier contenus, services, équipe, médias et communication.",
         stack: ["Next.js", "React", "Fastify", "PostgreSQL", "Supabase"],
         statusKey: "preDeploy",
         flip: {
-          participationTitle: "PÃ©rimÃ¨tre",
-          tapHint: "Appuyer pour les dÃ©tails",
+          participationTitle: "Périmètre",
+          tapHint: "Appuyer pour les détails",
           builtTitle: "Architecture",
           builtItems: [
             "Site public en Next.js",
-            "Admin sÃ©parÃ© en Vite/React",
+            "Admin séparé en Vite/React",
             "API Fastify",
             "PostgreSQL/Supabase",
           ],
@@ -1338,17 +1338,17 @@ const fr: Translations = {
           contributedItems: [
             "Contenus",
             "Services et domaines",
-            "Ã‰quipe",
-            "MÃ©dias",
+            "Équipe",
+            "Médias",
             "Contacts",
             "Newsletter",
-            "BanniÃ¨res",
-            "ParamÃ¨tres du site",
-            "Pages lÃ©gales",
+            "Bannières",
+            "Paramètres du site",
+            "Pages légales",
           ],
           stackTitle: "Technique",
           stackSummary:
-            "Next.js Â· React Â· TypeScript Â· Fastify Â· PostgreSQL Â· Supabase Â· Vite",
+            "Next.js · React · TypeScript · Fastify · PostgreSQL · Supabase · Vite",
           chips: [
             "authentification",
             "RBAC",
@@ -1356,78 +1356,78 @@ const fr: Translations = {
             "CSRF",
             "validation",
             "flux brouillon/publication",
-            "tests automatisÃ©s",
+            "tests automatisés",
             "Docker",
           ],
         },
       },
       "b2b-platform": {
-        subtitle: "Ã‰cosystÃ¨me digital pour l'investissement et les rencontres d'affaires",
+        subtitle: "Écosystème digital pour l'investissement et les rencontres d'affaires",
         description:
-          "Plateforme conÃ§ue pour relier participants, investisseurs, exposants, rÃ©unions et opportunitÃ©s d'affaires dans un seul Ã©cosystÃ¨me digital.",
-        stack: ["Marketplace B2B", "RÃ©unions", "QR / Check-in", "Admin / BI", "Deal Room"],
+          "Plateforme conçue pour relier participants, investisseurs, exposants, réunions et opportunités d'affaires dans un seul écosystème digital.",
+        stack: ["Marketplace B2B", "Réunions", "QR / Check-in", "Admin / BI", "Deal Room"],
         statusKey: "inDevelopment",
         flip: {
-          participationTitle: "PÃ©rimÃ¨tre",
-          tapHint: "Appuyer pour les dÃ©tails",
+          participationTitle: "Périmètre",
+          tapHint: "Appuyer pour les détails",
           builtTitle: "Objectif",
           builtItems: [
-            "CrÃ©er un Ã©cosystÃ¨me digital pour rapprocher entreprises, investisseurs, exposants et opportunitÃ©s d'affaires.",
+            "Créer un écosystème digital pour rapprocher entreprises, investisseurs, exposants et opportunités d'affaires.",
           ],
-          contributedTitle: "Modules prÃ©vus",
+          contributedTitle: "Modules prévus",
           contributedItems: [
             "marketplace B2B",
             "profils de participants et d'investisseurs",
-            "agenda et rÃ©unions",
-            "opportunitÃ©s",
+            "agenda et réunions",
+            "opportunités",
             "QR / check-in",
             "carte des investisseurs",
             "administration et BI",
             "pipeline / Deal Room",
-            "recommandation et matching, lorsque le projet le prÃ©voit",
+            "recommandation et matching, lorsque le projet le prévoit",
           ],
-          stackTitle: "Ã‰tat",
+          stackTitle: "État",
           stackSummary:
-            "Modules prÃ©vus et architecture planifiÃ©e, en dÃ©veloppement. Tous ne sont pas terminÃ©s.",
+            "Modules prévus et architecture planifiée, en développement. Tous ne sont pas terminés.",
           chips: [],
         },
       },
     },
   },
   techniques: {
-    title: "Principes de dÃ©veloppement",
+    title: "Principes de développement",
     subtitle:
-      "Comment je structure les produits, les donnÃ©es et la sÃ©curitÃ© avant d'Ã©crire du code.",
+      "Comment je structure les produits, les données et la sécurité avant d'écrire du code.",
     items: [
       {
         title: "Produit avant le code",
         description:
-          "Je comprends le flux rÃ©el de l'utilisateur avant de choisir les Ã©crans, les APIs ou la base de donnÃ©es.",
+          "Je comprends le flux réel de l'utilisateur avant de choisir les écrans, les APIs ou la base de données.",
       },
       {
         title: "Exigences avant la solution",
         description:
-          "J'organise les exigences, les risques et les critÃ¨res de validation avant de passer Ã  l'implÃ©mentation.",
+          "J'organise les exigences, les risques et les critères de validation avant de passer à l'implémentation.",
       },
       {
-        title: "Backend comme source de vÃ©ritÃ©",
+        title: "Backend comme source de vérité",
         description:
-          "Les Ã©tats, permissions, demandes et rÃ¨gles critiques doivent Ãªtre validÃ©s cÃ´tÃ© serveur.",
+          "Les états, permissions, demandes et règles critiques doivent être validés côté serveur.",
       },
       {
-        title: "DonnÃ©es organisÃ©es",
+        title: "Données organisées",
         description:
-          "Je modÃ©lise les entitÃ©s, relations, Ã©tats et historiques pour que le systÃ¨me puisse Ã©voluer sans devenir chaotique.",
+          "Je modélise les entités, relations, états et historiques pour que le système puisse évoluer sans devenir chaotique.",
       },
       {
-        title: "SÃ©curitÃ© dÃ¨s le dÃ©part",
+        title: "Sécurité dès le départ",
         description:
-          "Je pense Ã  l'authentification, aux permissions, aux payloads sÃ»rs et Ã  la validation avant la livraison.",
+          "Je pense à l'authentification, aux permissions, aux payloads sûrs et à la validation avant la livraison.",
       },
       {
-        title: "Livraison incrÃ©mentale et vÃ©rifiable",
+        title: "Livraison incrémentale et vérifiable",
         description:
-          "Je prÃ©fÃ¨re Ã©voluer par petites Ã©tapes testables, alignÃ©es sur une valeur rÃ©elle.",
+          "Je préfère évoluer par petites étapes testables, alignées sur une valeur réelle.",
       },
     ],
   },
@@ -1435,21 +1435,21 @@ const fr: Translations = {
   contact: {
     title: "Construisons quelque chose d'utile.",
     subtitle:
-      "Disponible pour le travail Ã  distance, projets freelance et collaborations sur des applications web, l'automatisation IA et des systÃ¨mes numÃ©riques sÃ©curisÃ©s.",
+      "Disponible pour le travail à distance, projets freelance et collaborations sur des applications web, l'automatisation IA et des systèmes numériques sécurisés.",
     emailMe: "Email",
     linkedin: "LinkedIn",
     github: "GitHub",
-    downloadCv: "TÃ©lÃ©charger CV",
-    emailAria: "Envoyer un email Ã  Yannick Martins",
+    downloadCv: "Télécharger CV",
+    emailAria: "Envoyer un email à Yannick Martins",
     linkedinAria: "Profil LinkedIn",
     githubAria: "Profil GitHub",
-    cvAria: "TÃ©lÃ©charger CV",
+    cvAria: "Télécharger CV",
   },
   footer: {
-    copyright: "Â© 2026 DÃ©veloppÃ© par Yannick Martins",
+    copyright: "© 2026 Développé par Yannick Martins",
   },
   common: {
-    homeAria: "Yannick Martins â€” accueil",
+    homeAria: "Yannick Martins — accueil",
     mainNav: "Navigation principale",
     mobileNav: "Navigation mobile",
     openMenu: "Ouvrir le menu",
@@ -1458,188 +1458,188 @@ const fr: Translations = {
     languageMenu: "Menu des langues",
     coreActive: "NOYAU // ACTIF",
     viewProjectAria: "Voir le projet",
-    avatarAlt: "Avatar stylisÃ© de Yannick Martins",
+    avatarAlt: "Avatar stylisé de Yannick Martins",
     externalLinkAria: "Ouvre dans un nouvel onglet",
   },
 };
 
 const zh: Translations = {
   site: {
-    title: "Yannick Martins â€” è½¯ä»¶å¼€å‘è€…",
+    title: "Yannick Martins — 软件开发者",
     description:
-      "æˆ‘æž„å»º Web åº”ç”¨ã€AI è‡ªåŠ¨åŒ–ã€æ•°æ®åº“é©±åŠ¨ç³»ç»Ÿå’Œé¢å‘çœŸå®žé—®é¢˜çš„å®‰å…¨è§£å†³æ–¹æ¡ˆã€‚",
+      "我构建 Web 应用、AI 自动化、数据库驱动系统和面向真实问题的安全解决方案。",
   },
   nav: {
-    systems: "ç³»ç»Ÿ",
-    modules: "æ¨¡å—",
-    evolution: "æ¼”è¿›",
-    missions: "é¡¹ç›®",
-    contact: "è”ç³»",
+    systems: "系统",
+    modules: "模块",
+    evolution: "演进",
+    missions: "项目",
+    contact: "联系",
   },
   hero: {
-    role: "è½¯ä»¶å¼€å‘è€…",
+    role: "软件开发者",
     subtitle:
-      "æˆ‘æž„å»º Web åº”ç”¨ã€AI è‡ªåŠ¨åŒ–ã€æ•°æ®åº“é©±åŠ¨ç³»ç»Ÿå’Œé¢å‘çœŸå®žé—®é¢˜çš„å®‰å…¨è§£å†³æ–¹æ¡ˆã€‚",
+      "我构建 Web 应用、AI 自动化、数据库驱动系统和面向真实问题的安全解决方案。",
   },
   operatingMode: {
-    title: "å·¥ä½œæ–¹å¼",
+    title: "工作方式",
     textBefore:
-      "æˆ‘ä»¥ä¸“æ³¨ã€å…‹åˆ¶å¹¶é¢å‘è½¯ä»¶å¼€å‘çš„æ–¹å¼å·¥ä½œï¼šå…ˆç†è§£éœ€æ±‚ã€é£Žé™©å’ŒçœŸå®žæµç¨‹ï¼Œå†è®¾è®¡æ•°æ®ã€APIã€å®‰å…¨å’Œäº¤ä»˜ã€‚ç›®æ ‡æ˜¯æž„å»ºæœ‰ç”¨ã€å®‰å…¨å¹¶å¯æŒç»­æ¼”è¿›çš„è½¯ä»¶ã€‚",
+      "我以专注、克制并面向软件开发的方式工作：先理解需求、风险和真实流程，再设计数据、API、安全和交付。目标是构建有用、安全并可持续演进的软件。",
     highlight: "",
     textAfter: "",
     steps: [
       {
-        title: "ç†è§£",
-        description: "å¼„æ¸…é—®é¢˜ã€æµç¨‹å’ŒçœŸå®žé™åˆ¶ã€‚",
+        title: "理解",
+        description: "弄清问题、流程和真实限制。",
       },
       {
-        title: "å»ºæ¨¡",
-        description: "æ¸…æ™°ç»„ç»‡æ•°æ®ã€å®žä½“å’Œå…³ç³»ã€‚",
+        title: "建模",
+        description: "清晰组织数据、实体和关系。",
       },
       {
-        title: "æž„å»º",
-        description: "æŠŠç•Œé¢ã€é€»è¾‘å’ŒåŽç«¯åšæˆä¸€ä¸ªæ•´ä½“ã€‚",
+        title: "构建",
+        description: "把界面、逻辑和后端做成一个整体。",
       },
       {
-        title: "éªŒè¯",
-        description: "æµ‹è¯•çœŸå®žè¡Œä¸ºï¼Œè€Œä¸åªæ˜¯å¤–è§‚ã€‚",
+        title: "验证",
+        description: "测试真实行为，而不只是外观。",
       },
       {
-        title: "ä¿æŠ¤",
-        description: "è½å®žæ ¡éªŒã€è®¿é—®æŽ§åˆ¶å’Œå®‰å…¨ã€‚",
+        title: "保护",
+        description: "落实校验、访问控制和安全。",
       },
       {
-        title: "äº¤ä»˜",
-        description: "å‘å¸ƒå¯ç”¨ã€èƒ½ç»§ç»­æ¼”è¿›çš„æˆæžœã€‚",
+        title: "交付",
+        description: "发布可用、能继续演进的成果。",
       },
     ],
   },
   modules: {
-    title: "ç³»ç»Ÿæ¨¡å—",
-    subtitle: "æˆ‘å°†æƒ³æ³•è½¬åŒ–ä¸ºçœŸå®žç³»ç»Ÿæ‰€ä½¿ç”¨çš„æŠ€æœ¯å±‚ã€‚",
+    title: "系统模块",
+    subtitle: "我将想法转化为真实系统所使用的技术层。",
     items: {
       interface: {
-        title: "ç•Œé¢å±‚",
+        title: "界面层",
         items: [
           "React",
           "Next.js",
           "TypeScript",
           "Tailwind CSS",
-          "å“åº”å¼ UI",
+          "响应式 UI",
         ],
       },
       logic: {
-        title: "é€»è¾‘å±‚",
+        title: "逻辑层",
         items: ["Node.js", "JavaScript", "PHP", "Python", "REST API"],
       },
       data: {
-        title: "æ•°æ®å±‚",
-        items: ["PostgreSQL", "MySQL", "Prisma", "å…³ç³»å»ºæ¨¡", "æ•°æ®è¿ç§»"],
+        title: "数据层",
+        items: ["PostgreSQL", "MySQL", "Prisma", "关系建模", "数据迁移"],
       },
       infrastructure: {
-        title: "åŸºç¡€è®¾æ–½å±‚",
-        items: ["Docker", "AWS", "Vercel", "çŽ¯å¢ƒå˜é‡", "éƒ¨ç½²"],
+        title: "基础设施层",
+        items: ["Docker", "AWS", "Vercel", "环境变量", "部署"],
       },
       security: {
-        title: "å®‰å…¨å±‚",
+        title: "安全层",
         items: [
           "Linux",
-          "ç½‘ç»œ",
+          "网络",
           "OWASP",
           "Nmap / Burp Suite",
-          "æŽˆæƒ Wi-Fi å®‰å…¨",
+          "授权 Wi-Fi 安全",
         ],
       },
       engineering: {
-        title: "æŠ€æœ¯å±‚",
-        items: ["éœ€æ±‚", "SysML / UML", "é£Žé™©ç®¡ç†", "V&V", "Lean / Agile"],
+        title: "技术层",
+        items: ["需求", "SysML / UML", "风险管理", "V&V", "Lean / Agile"],
       },
     },
   },
   evolution: {
-    title: "æ¼”è¿›è·¯å¾„",
-    subtitle: "ä»¥çºªå¾‹ã€å®žè·µå’Œå¯¹çœŸå®žç³»ç»Ÿçš„ä¸“æ³¨æž„å»ºçš„æŠ€æœ¯æ¼”è¿›è·¯å¾„ã€‚",
-    stageLabel: "é˜¶æ®µ",
+    title: "演进路径",
+    subtitle: "以纪律、实践和对真实系统的专注构建的技术演进路径。",
+    stageLabel: "阶段",
     items: [
       {
         stage: "01",
-        title: "åŸºç¡€",
-        items: ["HTML", "CSS", "JavaScript", "ç¼–ç¨‹é€»è¾‘"],
+        title: "基础",
+        items: ["HTML", "CSS", "JavaScript", "编程逻辑"],
       },
       {
         stage: "02",
-        title: "æž„å»ºè€…",
-        items: ["React", "Next.js", "å“åº”å¼ UI", "å¯å¤ç”¨ç»„ä»¶"],
+        title: "构建者",
+        items: ["React", "Next.js", "响应式 UI", "可复用组件"],
       },
       {
         stage: "03",
-        title: "ç³»ç»Ÿ",
-        items: ["Node.js", "REST API", "èº«ä»½éªŒè¯", "åŽç«¯æž¶æž„"],
+        title: "系统",
+        items: ["Node.js", "REST API", "身份验证", "后端架构"],
       },
       {
         stage: "04",
-        title: "æ™ºèƒ½",
-        items: ["AI", "è‡ªåŠ¨åŒ–", "æ™ºèƒ½ä½“", "LLM å·¥ä½œæµ"],
+        title: "智能",
+        items: ["AI", "自动化", "智能体", "LLM 工作流"],
       },
       {
         stage: "05",
-        title: "é˜²å¾¡",
-        items: ["Linux", "ç½‘ç»œ", "OWASP", "Web å®‰å…¨"],
+        title: "防御",
+        items: ["Linux", "网络", "OWASP", "Web 安全"],
       },
       {
         stage: "06",
-        title: "è¿è¥è€…",
-        items: ["çœŸå®žäº§å“", "ç”Ÿäº§éƒ¨ç½²", "å•†ä¸šæ€ç»´", "å®¢æˆ·ä»·å€¼"],
+        title: "运营者",
+        items: ["真实产品", "生产部署", "商业思维", "客户价值"],
       },
     ],
   },
   credentials: {
-    title: "äº®ç‚¹ä¸Žèµ„åŽ†",
-    subtitle: "ä»£ç ä¹‹å¤–çš„ç»åŽ†ã€å­¦ä¹ ä¸Žè®¤å¯ã€‚",
+    title: "亮点与资历",
+    subtitle: "代码之外的经历、学习与认可。",
     items: {
       reinventa: {
         metaType: "HACKATHON",
         metaYear: "2026",
         title: "Re!venta Hackathon",
         description:
-          "å…¥é€‰ Cabo Digital åœ¨ Mindelo ä¸¾åŠžçš„ Re!venta Hackathonã€‚å›¢é˜Ÿå¼€å‘äº†åº”ç”¨äºŽè½¦è¾†æ£€éªŒæµç¨‹çš„æ•°å­—æ–¹æ¡ˆã€‚",
-        highlight: "ç¬¬å››å",
+          "入选 Cabo Digital 在 Mindelo 举办的 Re!venta Hackathon。团队开发了应用于车辆检验流程的数字方案。",
+        highlight: "第四名",
         imageAlt:
-          "Cabo Digital åœ¨ Mindelo ä¸¾åŠžçš„ Re!venta Hackathon â€” å›¢é˜Ÿå‚ä¸Žè½¦è¾†æ£€éªŒç›¸å…³æ–¹æ¡ˆ",
+          "Cabo Digital 在 Mindelo 举办的 Re!venta Hackathon — 团队参与车辆检验相关方案",
       },
       payaig: {
         metaType: "FELLOWSHIP",
         metaYear: "2023",
         title: "Internet Governance Fellowship",
         description:
-          "å®Œæˆ Pan-African Youth Ambassadors for Internet Governance çš„ Internet Governance Fellowshipï¼Œæ‰€å±žä¸ºè‘¡è„ç‰™è¯­ cohortã€‚",
+          "完成 Pan-African Youth Ambassadors for Internet Governance 的 Internet Governance Fellowship，所属为葡萄牙语 cohort。",
         highlight: "Internet Governance",
         imageAlt:
-          "PAYAIG æŽˆäºˆ Yannick Martins çš„ Internet Governance Fellowship è¯ä¹¦",
+          "PAYAIG 授予 Yannick Martins 的 Internet Governance Fellowship 证书",
       },
     },
   },
   missions: {
-    title: "å®žåœ°ä»»åŠ¡",
-    subtitle: "å±•ç¤ºæˆ‘å¦‚ä½•å°†é—®é¢˜è½¬åŒ–ä¸ºæ•°å­—ç³»ç»Ÿçš„é¡¹ç›®ä¸Žæ¦‚å¿µã€‚",
-    problemLabel: "é—®é¢˜",
-    solutionLabel: "è§£å†³æ–¹æ¡ˆ",
-    viewProject: "æŸ¥çœ‹é¡¹ç›®",
-    showDetails: "è¯¦æƒ…",
-    hideDetails: "æ”¶èµ·è¯¦æƒ…",
-    caseStudy: "æ¡ˆä¾‹ç ”ç©¶",
+    title: "实地任务",
+    subtitle: "展示我如何将问题转化为数字系统的项目与概念。",
+    problemLabel: "问题",
+    solutionLabel: "解决方案",
+    viewProject: "查看项目",
+    showDetails: "详情",
+    hideDetails: "收起详情",
+    caseStudy: "案例研究",
     status: {
-      live: "å·²ä¸Šçº¿",
-      concept: "æ¦‚å¿µ / äº§å“æ„¿æ™¯",
-      inProgress: "è¿›è¡Œä¸­",
-      preDeploy: "é¢„éƒ¨ç½²",
-      inDevelopment: "å¼€å‘ä¸­",
+      live: "已上线",
+      concept: "概念 / 产品愿景",
+      inProgress: "进行中",
+      preDeploy: "预部署",
+      inDevelopment: "开发中",
     },
     items: {
       "oficina-digital": {
-        subtitle: "é¢å‘ Cabo Verde æ±½è½¦ç»´ä¿®åº—çš„ Web åº”ç”¨",
+        subtitle: "面向 Cabo Verde 汽车维修店的 Web 应用",
         description:
-          "ä¸€ä¸ªå¸®åŠ©ç»´ä¿®åº—æŽ¥æ”¶çº¿ä¸Šè¯·æ±‚ï¼Œå¹¶åœ¨ç®€å•ä»ªè¡¨æ¿ä¸­ç®¡ç†æœåŠ¡ã€å®¢æˆ·ã€è½¦è¾†ã€æ—¥ç¨‹å’Œæ²Ÿé€šçš„å¹³å°ã€‚",
+          "一个帮助维修店接收线上请求，并在简单仪表板中管理服务、客户、车辆、日程和沟通的平台。",
         stack: [
           "Next.js",
           "TypeScript",
@@ -1652,32 +1652,32 @@ const zh: Translations = {
         ],
         statusKey: "live",
         flip: {
-          participationTitle: "æˆ‘çš„å‚ä¸Ž",
-          tapHint: "ç‚¹å‡»æŸ¥çœ‹è¯¦æƒ…",
-          builtTitle: "æž„å»º",
+          participationTitle: "我的参与",
+          tapHint: "点击查看详情",
+          builtTitle: "构建",
           builtItems: [
-            "å®Œæ•´ Web å¹³å°",
-            "å…¬å¼€é¢„çº¦é¡µé¢",
-            "ç»´ä¿®åº—ä»ªè¡¨æ¿",
-            "å¹³å° Super Admin",
+            "完整 Web 平台",
+            "公开预约页面",
+            "维修店仪表板",
+            "平台 Super Admin",
           ],
-          featuresTitle: "åŠŸèƒ½",
+          featuresTitle: "功能",
           featuresItems: [
-            "å¸¦ç…§ç‰‡çš„åœ¨çº¿è¯·æ±‚",
-            "æœåŠ¡ã€å®¢æˆ·ä¸Žè½¦è¾†",
-            "æ—¥ç¨‹ä¸Žå°é”æ—¥æœŸ",
-            "é€šçŸ¥ã€é‚®ä»¶ä¸Žè¯„ä»·",
+            "带照片的在线请求",
+            "服务、客户与车辆",
+            "日程与封锁日期",
+            "通知、邮件与评价",
           ],
-          stackTitle: "æŠ€æœ¯æ ˆ",
+          stackTitle: "技术栈",
           stackSummary:
-            "Next.js Â· TypeScript Â· React Â· Tailwind CSS Â· Prisma Â· PostgreSQL Â· Supabase Â· Vercel",
+            "Next.js · TypeScript · React · Tailwind CSS · Prisma · PostgreSQL · Supabase · Vercel",
           chips: ["SaaS", "Admin", "Booking", "Email", "Storage", "i18n"],
         },
       },
       vektra: {
-        subtitle: "æ™ºèƒ½å‡ºè¡Œå¹³å°",
+        subtitle: "智能出行平台",
         description:
-          "èšç„¦ä¹˜å®¢ã€å¸æœºã€æ— éšœç¢ã€å®‰å…¨ä¸ŽåŸŽå¸‚æ•°æ®çš„æ•°å­—å‡ºè¡Œè§£å†³æ–¹æ¡ˆã€‚",
+          "聚焦乘客、司机、无障碍、安全与城市数据的数字出行解决方案。",
         stack: [
           "React Native",
           "Expo",
@@ -1690,152 +1690,152 @@ const zh: Translations = {
         ],
         statusKey: "inProgress",
         flip: {
-          participationTitle: "æˆ‘çš„å‚ä¸Ž",
-          tapHint: "ç‚¹å‡»æŸ¥çœ‹è¯¦æƒ…",
-          builtTitle: "æž„å»º",
-          builtItems: ["VEKTRA AI", "VEKTRA Kids", "Liveness / äººè„¸éªŒè¯"],
-          contributedTitle: "å‚ä¸Ž",
-          contributedItems: ["VEKTRAGEO", "ä¹˜å®¢ã€å¸æœºä¸Ž PCD", "ç”Ÿæ€ç³»ç»ŸåŽç«¯"],
-          stackTitle: "æŠ€æœ¯æ ˆ",
+          participationTitle: "我的参与",
+          tapHint: "点击查看详情",
+          builtTitle: "构建",
+          builtItems: ["VEKTRA AI", "VEKTRA Kids", "Liveness / 人脸验证"],
+          contributedTitle: "参与",
+          contributedItems: ["VEKTRAGEO", "乘客、司机与 PCD", "生态系统后端"],
+          stackTitle: "技术栈",
           stackSummary:
-            "TypeScript Â· Node.js Â· React Native Â· Expo Â· Next.js Â· PostgreSQL Â· Redis Â· Mapbox Â· OSRM",
+            "TypeScript · Node.js · React Native · Expo · Next.js · PostgreSQL · Redis · Mapbox · OSRM",
           chips: ["Guardian Routing", "Route Authority", "Liveness", "VektraGEO"],
         },
       },
       "linha-6": {
-        subtitle: "æœºæž„æ•°å­—å¹³å°",
+        subtitle: "机构数字平台",
         description:
-          "æœºæž„ç½‘ç«™ï¼Œé›†æˆç®¡ç†åŽå°å’Œ APIï¼Œç”¨äºŽç®¡ç†å’Œå‘å¸ƒå†…å®¹ã€æœåŠ¡ã€å›¢é˜Ÿã€åª’ä½“ä¸Žæ²Ÿé€šä¿¡æ¯ã€‚",
+          "机构网站，集成管理后台和 API，用于管理和发布内容、服务、团队、媒体与沟通信息。",
         stack: ["Next.js", "React", "Fastify", "PostgreSQL", "Supabase"],
         statusKey: "preDeploy",
         flip: {
-          participationTitle: "èŒƒå›´",
-          tapHint: "ç‚¹å‡»æŸ¥çœ‹è¯¦æƒ…",
-          builtTitle: "æž¶æž„",
+          participationTitle: "范围",
+          tapHint: "点击查看详情",
+          builtTitle: "架构",
           builtItems: [
-            "Next.js å…¬å…±ç½‘ç«™",
-            "ç‹¬ç«‹çš„ Vite/React ç®¡ç†ç«¯",
+            "Next.js 公共网站",
+            "独立的 Vite/React 管理端",
             "Fastify API",
             "PostgreSQL/Supabase",
           ],
-          contributedTitle: "ç®¡ç†",
+          contributedTitle: "管理",
           contributedItems: [
-            "å†…å®¹",
-            "æœåŠ¡ä¸Žé¢†åŸŸ",
-            "å›¢é˜Ÿ",
-            "åª’ä½“",
-            "è”ç³»",
+            "内容",
+            "服务与领域",
+            "团队",
+            "媒体",
+            "联系",
             "Newsletter",
-            "æ¨ªå¹…",
-            "ç«™ç‚¹è®¾ç½®",
-            "æ³•å¾‹é¡µé¢",
+            "横幅",
+            "站点设置",
+            "法律页面",
           ],
-          stackTitle: "æŠ€æœ¯",
+          stackTitle: "技术",
           stackSummary:
-            "Next.js Â· React Â· TypeScript Â· Fastify Â· PostgreSQL Â· Supabase Â· Vite",
+            "Next.js · React · TypeScript · Fastify · PostgreSQL · Supabase · Vite",
           chips: [
-            "èº«ä»½éªŒè¯",
+            "身份验证",
             "RBAC",
-            "ä¼šè¯",
+            "会话",
             "CSRF",
-            "æ ¡éªŒ",
-            "è‰ç¨¿/å‘å¸ƒæµç¨‹",
-            "è‡ªåŠ¨åŒ–æµ‹è¯•",
+            "校验",
+            "草稿/发布流程",
+            "自动化测试",
             "Docker",
           ],
         },
       },
       "b2b-platform": {
-        subtitle: "é¢å‘æŠ•èµ„ä¸Žå•†åŠ¡ä¼šé¢çš„æ•°å­—ç”Ÿæ€",
+        subtitle: "面向投资与商务会面的数字生态",
         description:
-          "æ—¨åœ¨æŠŠå‚ä¸Žè€…ã€æŠ•èµ„è€…ã€å±•å•†ã€ä¼šè®®å’Œå•†ä¸šæœºä¼šè¿žæŽ¥åœ¨åŒä¸€æ•°å­—ç”Ÿæ€ä¸­çš„å¹³å°ã€‚",
-        stack: ["B2B å¸‚åœº", "ä¼šè®®", "QR / ç­¾åˆ°", "ç®¡ç† / BI", "Deal Room"],
+          "旨在把参与者、投资者、展商、会议和商业机会连接在同一数字生态中的平台。",
+        stack: ["B2B 市场", "会议", "QR / 签到", "管理 / BI", "Deal Room"],
         statusKey: "inDevelopment",
         flip: {
-          participationTitle: "èŒƒå›´",
-          tapHint: "ç‚¹å‡»æŸ¥çœ‹è¯¦æƒ…",
-          builtTitle: "ç›®æ ‡",
+          participationTitle: "范围",
+          tapHint: "点击查看详情",
+          builtTitle: "目标",
           builtItems: [
-            "å»ºç«‹ä¸€ä¸ªæ•°å­—ç”Ÿæ€ï¼Œæ‹‰è¿‘ä¼ä¸šã€æŠ•èµ„è€…ã€å±•å•†ä¸Žå•†ä¸šæœºä¼šã€‚",
+            "建立一个数字生态，拉近企业、投资者、展商与商业机会。",
           ],
-          contributedTitle: "è®¡åˆ’æ¨¡å—",
+          contributedTitle: "计划模块",
           contributedItems: [
-            "B2B å¸‚åœº",
-            "å‚ä¸Žè€…ä¸ŽæŠ•èµ„è€…èµ„æ–™",
-            "è®®ç¨‹ä¸Žä¼šè®®",
-            "æœºä¼š",
-            "QR / ç­¾åˆ°",
-            "æŠ•èµ„è€…åœ°å›¾",
-            "ç®¡ç†ä¸Ž BI",
+            "B2B 市场",
+            "参与者与投资者资料",
+            "议程与会议",
+            "机会",
+            "QR / 签到",
+            "投资者地图",
+            "管理与 BI",
             "pipeline / Deal Room",
-            "åœ¨é¡¹ç›®æ”¯æŒæ—¶çš„æŽ¨èä¸ŽåŒ¹é…",
+            "在项目支持时的推荐与匹配",
           ],
-          stackTitle: "çŠ¶æ€",
-          stackSummary: "è®¡åˆ’ä¸­çš„æ¨¡å—ä¸Žè§„åˆ’æž¶æž„ï¼Œæ­£åœ¨å¼€å‘ã€‚å¹¶éžå…¨éƒ¨å·²ç»å®Œæˆã€‚",
+          stackTitle: "状态",
+          stackSummary: "计划中的模块与规划架构，正在开发。并非全部已经完成。",
           chips: [],
         },
       },
     },
   },
   techniques: {
-    title: "å¼€å‘åŽŸåˆ™",
-    subtitle: "æˆ‘å¦‚ä½•åœ¨ç¼–å†™ä»£ç å‰ç»„ç»‡äº§å“ã€æ•°æ®å’Œå®‰å…¨é€»è¾‘ã€‚",
+    title: "开发原则",
+    subtitle: "我如何在编写代码前组织产品、数据和安全逻辑。",
     items: [
       {
-        title: "äº§å“å…ˆäºŽä»£ç ",
-        description: "åœ¨é€‰æ‹©ç•Œé¢ã€API æˆ–æ•°æ®åº“ä¹‹å‰ï¼Œæˆ‘å…ˆç†è§£çœŸå®žçš„ç”¨æˆ·æµç¨‹ã€‚",
+        title: "产品先于代码",
+        description: "在选择界面、API 或数据库之前，我先理解真实的用户流程。",
       },
       {
-        title: "éœ€æ±‚å…ˆäºŽæ–¹æ¡ˆ",
-        description: "åœ¨è¿›å…¥å®žçŽ°ä¹‹å‰ï¼Œæˆ‘å…ˆæ•´ç†éœ€æ±‚ã€é£Žé™©å’ŒéªŒè¯æ ‡å‡†ã€‚",
+        title: "需求先于方案",
+        description: "在进入实现之前，我先整理需求、风险和验证标准。",
       },
       {
-        title: "åŽç«¯ä½œä¸ºäº‹å®žæ¥æº",
-        description: "çŠ¶æ€ã€æƒé™ã€è¯·æ±‚å’Œå…³é”®è§„åˆ™åº”åœ¨æœåŠ¡ç«¯è¿›è¡ŒéªŒè¯ã€‚",
+        title: "后端作为事实来源",
+        description: "状态、权限、请求和关键规则应在服务端进行验证。",
       },
       {
-        title: "æœ‰ç»„ç»‡çš„æ•°æ®",
-        description: "æˆ‘è®¾è®¡å®žä½“ã€å…³ç³»ã€çŠ¶æ€å’ŒåŽ†å²è®°å½•ï¼Œè®©ç³»ç»Ÿèƒ½å¤Ÿå¢žé•¿è€Œä¸å˜æ··ä¹±ã€‚",
+        title: "有组织的数据",
+        description: "我设计实体、关系、状态和历史记录，让系统能够增长而不变混乱。",
       },
       {
-        title: "ä»Žä¸€å¼€å§‹è€ƒè™‘å®‰å…¨",
-        description: "æˆ‘åœ¨äº¤ä»˜å‰å…³æ³¨èº«ä»½éªŒè¯ã€æƒé™ã€å®‰å…¨ payload å’ŒéªŒè¯æµç¨‹ã€‚",
+        title: "从一开始考虑安全",
+        description: "我在交付前关注身份验证、权限、安全 payload 和验证流程。",
       },
       {
-        title: "å¢žé‡ä¸”å¯éªŒè¯çš„äº¤ä»˜",
-        description: "æˆ‘å€¾å‘äºŽé€šè¿‡å°è€Œå¯æµ‹è¯•çš„æ­¥éª¤æ¼”è¿›ï¼Œå¹¶ä¸ŽçœŸå®žä»·å€¼å¯¹é½ã€‚",
+        title: "增量且可验证的交付",
+        description: "我倾向于通过小而可测试的步骤演进，并与真实价值对齐。",
       },
     ],
   },
   labNotes: technicalNotes.zh,
   contact: {
-    title: "è®©æˆ‘ä»¬æž„å»ºæœ‰ç”¨çš„ä¸œè¥¿ã€‚",
+    title: "让我们构建有用的东西。",
     subtitle:
-      "å¯æŽ¥å—è¿œç¨‹å·¥ä½œã€è‡ªç”±èŒä¸šé¡¹ç›®ï¼Œä»¥åŠ Web åº”ç”¨ã€AI è‡ªåŠ¨åŒ–å’Œå®‰å…¨æ•°å­—ç³»ç»Ÿæ–¹é¢çš„åˆä½œã€‚",
+      "可接受远程工作、自由职业项目，以及 Web 应用、AI 自动化和安全数字系统方面的合作。",
     emailMe: "Email",
     linkedin: "LinkedIn",
     github: "GitHub",
-    downloadCv: "ä¸‹è½½ CV",
-    emailAria: "ç»™ Yannick Martins å‘é€é‚®ä»¶",
-    linkedinAria: "LinkedIn ä¸»é¡µ",
-    githubAria: "GitHub ä¸»é¡µ",
-    cvAria: "ä¸‹è½½ CV",
+    downloadCv: "下载 CV",
+    emailAria: "给 Yannick Martins 发送邮件",
+    linkedinAria: "LinkedIn 主页",
+    githubAria: "GitHub 主页",
+    cvAria: "下载 CV",
   },
   footer: {
-    copyright: "Â© 2026 ç”± Yannick Martins å¼€å‘",
+    copyright: "© 2026 由 Yannick Martins 开发",
   },
   common: {
-    homeAria: "Yannick Martins â€” é¦–é¡µ",
-    mainNav: "ä¸»å¯¼èˆª",
-    mobileNav: "ç§»åŠ¨ç«¯å¯¼èˆª",
-    openMenu: "æ‰“å¼€èœå•",
-    closeMenu: "å…³é—­èœå•",
-    selectLanguage: "åˆ‡æ¢è¯­è¨€",
-    languageMenu: "è¯­è¨€èœå•",
-    coreActive: "æ ¸å¿ƒ // æ´»è·ƒ",
-    viewProjectAria: "æŸ¥çœ‹é¡¹ç›®",
-    avatarAlt: "Yannick Martins çš„é£Žæ ¼åŒ–å¤´åƒ",
-    externalLinkAria: "åœ¨æ–°æ ‡ç­¾é¡µä¸­æ‰“å¼€",
+    homeAria: "Yannick Martins — 首页",
+    mainNav: "主导航",
+    mobileNav: "移动端导航",
+    openMenu: "打开菜单",
+    closeMenu: "关闭菜单",
+    selectLanguage: "切换语言",
+    languageMenu: "语言菜单",
+    coreActive: "核心 // 活跃",
+    viewProjectAria: "查看项目",
+    avatarAlt: "Yannick Martins 的风格化头像",
+    externalLinkAria: "在新标签页中打开",
   },
 };
 

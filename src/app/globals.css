@@ -175,7 +175,7 @@ body {
   isolation: isolate;
 }
 
-/* Mission expandable cards â€” Oficina Digital / VEKTRA / Lab */
+/* Mission expandable cards — Oficina Digital / VEKTRA / Lab */
 .mission-card-shell {
   isolation: isolate;
 }
@@ -208,7 +208,7 @@ body {
   position: relative;
 }
 
-/* Cabo Verde â€” gradient bar (nav underline, card line, section accent) */
+/* Cabo Verde — gradient bar (nav underline, card line, section accent) */
 .cv-gradient-bar {
   background: linear-gradient(
     90deg,
